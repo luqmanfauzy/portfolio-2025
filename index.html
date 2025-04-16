@@ -177,13 +177,23 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Project 1 -->
-        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition" data-aos="fade-up">
-          <div class="h-48 bg-gray-200">
+        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition group relative overflow-hidden"
+          data-aos="fade-up">
+          <div class="h-48 bg-gray-200 relative">
             <video autoplay loop muted playsinline width="100%" class="w-full h-full object-cover">
-              <source src="assets/video/LF-store-preview-video.mp4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/ded1qbely/video/upload/v1744782874/LF-store-preview-video_geyfxb.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+
+            <!-- Overlay gelap dan teks -->
+            <div
+              class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#">View Detail</a>
+              </span>
+            </div>
           </div>
+
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">
               LF Store E-Commerce website
@@ -204,17 +214,25 @@
         </div>
 
         <!-- Project 2 -->
-        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition" data-aos="fade-up">
-          <div class="h-48 bg-gray-200">
-            <video autoplay loop muted playsinline width="100%" class="w-full h-full object-cover">
-              <source src="assets/video/Food-order-preview-video.mp4" type="video/mp4" />
+        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition group relative overflow-hidden"
+          data-aos="fade-up">
+          <div class="h-48 bg-gray-200 relative">
+            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+              <source src="https://res.cloudinary.com/ded1qbely/video/upload/v1744783925/Food-order-preview-video_nhn0pr.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+
+            <!-- Overlay hanya di area video -->
+            <div
+              class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#">View Detail</a>
+              </span>
+            </div>
           </div>
+
           <div class="p-6">
-            <h3 class="text-xl font-semibold text-gray-800 mb-2">
-              Food Order Website
-            </h3>
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">Food Order Website</h3>
             <p class="text-gray-500 mb-4">
               user-friendly website for ordering food online with a modern design
             </p>
@@ -226,14 +244,25 @@
             </div>
           </div>
         </div>
+
+
         <!-- Project 3 -->
-        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition" data-aos="fade-up">
-          <div class="h-48 bg-gray-200">
-            <video autoplay loop muted playsinline width="100%" class="w-full h-full object-cover">
-              <source src="assets/video/POS-preview-video.mp4" type="video/mp4" />
+        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition group" data-aos="fade-up">
+          <div class="h-48 bg-gray-200 relative overflow-hidden">
+            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+              <source src="https://res.cloudinary.com/ded1qbely/video/upload/v1744782893/POS-preview-video_wytnic.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
+
+            <!-- Overlay di dalam video -->
+            <div
+              class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="/detail-project/project3.html">View Detail</a>
+              </span>
+            </div>
           </div>
+
           <div class="p-6">
             <h3 class="text-xl font-semibold text-gray-800 mb-2">
               Point of Sale (POS) System Web App
@@ -252,6 +281,76 @@
             </div>
           </div>
         </div>
+
+
+        <!-- Project 4 -->
+        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition group" data-aos="fade-up">
+          <div class="h-48 bg-gray-200 relative overflow-hidden">
+            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+              <source src="https://res.cloudinary.com/ded1qbely/video/upload/v1744782891/Cashflow-preview-video_gymgkz.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <!-- Overlay -->
+            <div
+              class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#">View Detail</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Cashflow Management System Web App
+            </h3>
+            <p class="text-gray-500 mb-4">
+              A web application for managing cash flow and financial
+              transactions with a modern design and user friendly interface
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Laravel</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Bootstrap CSS</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">MySQL</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Datatables</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Chart JS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="bg-white rounded-xl shadow-sm hover:shadow-md transition group" data-aos="fade-up">
+          <div class="h-48 bg-gray-200 relative overflow-hidden">
+            <video autoplay loop muted playsinline class="w-full h-full object-cover">
+              <source src="https://res.cloudinary.com/ded1qbely/video/upload/v1744783916/Finkas-preview-video_zr1egn.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+            <!-- Overlay -->
+            <div
+              class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+              <span class="text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition duration-300">
+                <a href="#">View Detail</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="p-6">
+            <h3 class="text-xl font-semibold text-gray-800 mb-2">
+              Finkas - Financial Kas System Web App
+            </h3>
+            <p class="text-gray-500 mb-4">
+              A web application for managing financial transactions and cash
+              flow with a modern design and user friendly interface
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Laravel</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">JQuery</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">tailwind CSS</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">MySQL</span>
+              <span class="px-3 py-1 bg-teal-100 text-teal-500 rounded-full text-sm">Chart JS</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
