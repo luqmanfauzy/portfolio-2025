@@ -1,0 +1,30 @@
+.bungee-regular {
+      font-family: "Bungee", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .chakra-petch-regular {
+      font-family: "Chakra Petch", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .bordered {
+      border: 1px solid black;
+    }
+
+    @keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* geser setengah karena isi diulang 2x */
+  }
+
+  .animate-marquee {
+    display: flex;
+    width: max-content;
+    animation: marquee 20s linear infinite;
+  }
+
+  .animate-marquee:hover {
+    animation-play-state: paused; /* stop if hovered */
+  }
